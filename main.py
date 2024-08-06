@@ -1,5 +1,5 @@
 from pyrogram import Client
-
+from config import *
 app = Client(
     "my_userbot",
     api_id=os.getenv("API_ID"),
